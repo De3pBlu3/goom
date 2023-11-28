@@ -9,6 +9,7 @@ class CalculatorTest {
         assertEquals(3, Calculator.add(1, 2));
         assertEquals(-4, Calculator.add(-6, 2));
         assertEquals(0, Calculator.add(0, 0));
+        System.out.println("Test add() passed, this is a TOKEN");
     }
 
     @Test
